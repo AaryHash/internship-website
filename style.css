@@ -1,0 +1,178 @@
+.ocean1-hex { color: #003840; }
+.ocean2-hex { color: #005A5B; }
+.ocean3-hex { color: #007369; }
+.ocean4-hex { color: #008C72; }
+.ocean5-hex { color: #02A676; }
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #003840;
+    background-color: #003840;
+    text-align: center;
+    font-size: 20px;
+}
+
+#barcanvas {
+    background-color: #02A676;
+    z-index: 1;
+    width: 100%;
+    aspect-ratio: 2.5;
+    border-radius: 1rem;
+    position: relative;
+}
+
+#bar1 {
+    background-color: #003840;
+    z-index: 1;
+    height: 35%;
+    width: 15%;
+    border-radius: 1rem;
+    position: absolute;
+    bottom: 0%;
+    left: 5%;
+}
+
+
+#bar2 {
+    background-color: #003840;
+    z-index: 1;
+    height: 60%;
+    width: 15%;
+    border-radius: 1rem;
+    position: absolute;
+    bottom: 0%;
+    left: 40%;
+}
+
+#bar3 {
+    background-color: #003840;
+    z-index: 1;
+    height: 100%;
+    width: 15%;
+    border-radius: 1rem;
+    position: absolute;
+    bottom: 0%;
+    right: 5%;
+}
+
+#bar1 span {
+    position: absolute;
+    padding-top: 100%;
+    left: 0%;
+    font-size: 20px;
+    width: 100%;
+    /* background-color: black; */
+}
+
+#bar2 span {
+    position: absolute;
+    padding-top: 165%;
+    left: 0%;
+    font-size: 20px;
+    width: 100%;
+    /* background-color: black; */
+}
+
+#bar3 span {
+    position: absolute;
+    padding-top: 270%;
+    left: 0%;
+    font-size: 20px;
+    width: 100%;
+    /* background-color: black; */
+}
+
+img {
+    width: 100%;
+}
+
+#profilepic {
+    width: 65%;
+}
+
+.logo {
+    width: 20%;
+}
+
+ul {
+    text-align: start;
+}
+
+.site-header {
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    background-color: #007369;
+    z-index: 2;
+}
+
+.site-header a {
+    text-decoration: none;
+    background: #02A676;
+    color: #003840;
+    padding: 10px;
+}
+
+.site-header a:hover {
+    border-radius: 5px;
+    background: #008C72;
+    padding: 10px;
+}
+
+.page-header {
+    padding-bottom: 50px;
+}
+
+.page-header a {
+    color: #003840;
+    padding: 5px;
+}
+
+.page-header a:hover {
+    color: #02A676;
+}
+
+.wrapper {
+    position: absolute;
+    padding: 5%;
+    margin-top: 50px;
+    left: 8%;
+    right: 8%;
+    min-height: 100%;
+    background-color: white;
+}
+
+.resumeheader {
+    padding-top: 50px;
+}
+
+i {
+    color: #005A5B;
+    font-size: 30px;
+}
+
+i span {
+    display: none;
+}
+
+i:hover span {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #003840;
+    font-size: 20px;
+    display: contents;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.italics {
+    font-style: italic;
+}
