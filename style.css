@@ -12,78 +12,9 @@ body {
     font-size: 20px;
 }
 
-#barcanvas {
-    background-color: #02A676;
-    z-index: 1;
-    width: 100%;
-    aspect-ratio: 2.5;
-    border-radius: 1rem;
-    position: relative;
-}
-
-#bar1 {
-    background-color: #003840;
-    z-index: 1;
-    height: 35%;
-    width: 15%;
-    border-radius: 1rem;
-    position: absolute;
-    bottom: 0%;
-    left: 5%;
-}
-
-
-#bar2 {
-    background-color: #003840;
-    z-index: 1;
-    height: 60%;
-    width: 15%;
-    border-radius: 1rem;
-    position: absolute;
-    bottom: 0%;
-    left: 40%;
-}
-
-#bar3 {
-    background-color: #003840;
-    z-index: 1;
-    height: 100%;
-    width: 15%;
-    border-radius: 1rem;
-    position: absolute;
-    bottom: 0%;
-    right: 5%;
-}
-
-#bar1 span {
-    position: absolute;
-    padding-top: 100%;
-    left: 0%;
-    font-size: 20px;
-    width: 100%;
-    /* background-color: black; */
-}
-
-#bar2 span {
-    position: absolute;
-    padding-top: 165%;
-    left: 0%;
-    font-size: 20px;
-    width: 100%;
-    /* background-color: black; */
-}
-
-#bar3 span {
-    position: absolute;
-    padding-top: 270%;
-    left: 0%;
-    font-size: 20px;
-    width: 100%;
-    /* background-color: black; */
-}
-
 img {
     width: 100%;
+    border-radius: 1rem;
 }
 
 #profilepic {
